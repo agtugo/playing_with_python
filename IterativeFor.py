@@ -42,7 +42,7 @@ class Pool:
 #with a function similar to a for loop.
 #There are many algorithms that requires several nested fors, 
 #this could be implemented with a recursive approach, the recursive 
-#approach could be using calling the function inside the function
+#approach could either using a call to the function inside the function
 #or modifying the result while working on the result. The recursive
 #approach use the stack which has a limit and the second approach 
 #could be confusing (but useful).
