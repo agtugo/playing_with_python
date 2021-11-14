@@ -37,12 +37,17 @@ class Pool:
     def pool_sum(pools):
         res = sum(pool.value for pool in pools)
         return res
+
 #The objective of this class is to create a callable or an object
-#there are many algorithms that requires many nested fors, 
-#this could be solved with a recursive approach, the recursive 
+#with a function similar to a for loop.
+#There are many algorithms that requires several nested fors, 
+#this could be implemented with a recursive approach, the recursive 
 #approach could be using calling the function inside the function
-#or modifying the result while working on the result.
-#This is just another approach. The product function from itertools
+#or modifying the result while working on the result. The recursive
+#approach use the stack which has a limit and the second approach 
+#could be confusing (but useful).
+#This is just another approach it does not mean is better is just another
+#approach. The product function from itertools
 #can provide some of this functionality but this would be a generalization
 #in general terms this would be similar to this.
 #def For(container, appendables,action1, action2):
